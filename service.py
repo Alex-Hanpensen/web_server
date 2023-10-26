@@ -63,15 +63,3 @@ class WebServer:
                 yield line
             except StopIteration:
                 break
-
-
-# payload = {
-#     'file_name': 'apache_logs.txt',
-#     'cmd1': 'filter',
-#     'value1': 'GET',
-#     'cmd2': None,
-#     'value2': '0'
-# }
-#
-# v = WebServer(**payload)
-# print('\n'.join([i for i in v.get_start()]))
